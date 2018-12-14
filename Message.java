@@ -28,6 +28,7 @@ public class Message {
 		SimpleDateFormat ft = 
 		new SimpleDateFormat ("E yyyy.MM.dd 'at' hh:mm:ss a zzz");
 
-        this.message= ("Operacja-)"+operacja+"(|Status-)"+status+"(|"+"Identyfikator-)"+identyfikator+"(|"+"Wiadomosc-)"+wiadomosc+"(|"+"Data-)"+ft.format(dNow)+"(|");
+        this.message= ("Operacja-)"+operacja+"(|Status-)"+status+"(|"+"Identyfikator-)"+identyfikator
+		       +"(|"+"Wiadomosc-)"+wiadomosc+"(|"+"Data-)"+ft.format(dNow)+"(|");
     }
 }
